@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# -----------------------------------------------------------------------------
+# Run type, lint, JSDoc, and type location checks.
+# -----------------------------------------------------------------------------
+bun run check
+
+# -----------------------------------------------------------------------------
+# E2E tests are disabled (Docker architecture issues) - run locally if needed.
+#
+# To skip tests: SKIP_TESTS=true git push
+# -----------------------------------------------------------------------------
+if [ "$SKIP_TESTS" != "true" ]; then
+	echo "Running unit tests... (set SKIP_TESTS=true to skip)"
+	bun run test
+fi

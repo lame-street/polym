@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# -----------------------------------------------------------------------------
+# Install dependencies with frozen lockfile.
+#
+# --frozen-lockfile ensures the lockfile isn't modified during install. This
+# prevents accidental dependency changes from sneaking into commits and ensures
+# all contributors use identical dependency versions.
+# -----------------------------------------------------------------------------
+bun install --frozen-lockfile
+
+# -----------------------------------------------------------------------------
+# Run unit tests before committing.
+#
+# To skip running tests, set the environment variable SKIP_TESTS to "true":
+#   Example: SKIP_TESTS=true git commit -m "message"
+# -----------------------------------------------------------------------------
+if [ "$SKIP_TESTS" != "true" ]; then
+	bun run test
+fi
+
+# -----------------------------------------------------------------------------
+# Run type, lint, JSDoc, and type location checks.
+# -----------------------------------------------------------------------------
+bun check
+
+# -----------------------------------------------------------------------------
+# Format and lint staged files.
+# -----------------------------------------------------------------------------
+bun lint-staged

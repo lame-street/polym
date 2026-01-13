@@ -1,0 +1,27 @@
+{
+    "name": "{{name}}",
+    "version": "0.0.0",
+    "type": "module",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        }
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "bun build.ts",
+        "test": "bun test --no-env-file"
+    },
+    "devDependencies": {
+        "@timeback/internal-utils": "workspace:*",
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    }
+}

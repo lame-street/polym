@@ -1,0 +1,98 @@
+{
+	"$schema": "./node_modules/oxlint/configuration_schema.json",
+	"env": {
+		"node": true
+	},
+	"categories": {
+		"correctness": "error",
+		"suspicious": "error",
+		"pedantic": "error"
+	},
+	"plugins": ["jsdoc"],
+	"ignorePatterns": ["srcref/**"],
+	"rules": {
+		/**
+		 * ESLint rules
+		 */
+
+		"no-unused-vars": "error",
+		"max-lines-per-function": ["error", { "max": 150, "skipComments": true }],
+		"max-lines": ["error", { "max": 1000 }],
+		"max-classes-per-file": ["error", { "max": 3 }],
+		"require-await": "error",
+		"no-array-callback-reference": "allow",
+		"no-useless-undefined": "allow",
+		"no-warning-comments": "allow",
+		"no-inline-comments": "allow",
+
+		/**
+		 * TypeScript rules
+		 */
+
+		"typescript/consistent-type-imports": "error",
+		"typescript/consistent-type-definitions": "error",
+
+		/**
+		 * JSDoc rules
+		 */
+
+		"jsdoc/check-property-names": "error",
+		"jsdoc/implements-on-classes": "error",
+		"jsdoc/check-tag-names": [
+			"error",
+			{
+				"typed": true,
+				"definedTags": [
+					"typeParam",
+					"packageDocumentation",
+					"category",
+					"group",
+					"internal",
+					"alpha",
+					"beta",
+					"remarks",
+					"defaultValue",
+					"inheritDoc"
+				]
+			}
+		],
+		"jsdoc/empty-tags": "error",
+		"jsdoc/no-defaults": "allow",
+		"jsdoc/require-param": "error",
+		"jsdoc/require-param-description": "error",
+		"jsdoc/require-param-name": "error",
+		"jsdoc/require-param-type": "allow",
+		"jsdoc/require-property": "allow",
+		"jsdoc/require-property-description": "error",
+		"jsdoc/require-property-name": "error",
+		"jsdoc/require-property-type": "allow",
+		"jsdoc/require-yields": "allow",
+		"jsdoc/require-returns": "error",
+		"jsdoc/require-returns-description": "error",
+		"jsdoc/require-returns-type": "allow"
+	},
+	"overrides": [
+		{
+			"files": ["**/*.js", "**/*.mjs"],
+			"rules": {
+				"jsdoc/check-tag-names": "off"
+			}
+		},
+		{
+			"files": ["**/*.test.ts"],
+			"rules": {
+				"max-lines-per-function": "off",
+				"max-lines": "off",
+				"require-await": "off",
+				"no-new": "off"
+			}
+		},
+		{
+			"files": ["**/examples/**/*.ts"],
+			"rules": {
+				"max-lines-per-function": "off",
+				"max-lines": "off"
+			}
+		}
+	]
+}

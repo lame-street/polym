@@ -1,0 +1,20 @@
+{
+	"name": "@polym/constants",
+	"version": "0.0.0",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./src/index.ts"
+		}
+	},
+	"scripts": {
+		"test": "bun test --no-env-file"
+	},
+	"devDependencies": {
+		"@polym/utils": "workspace:*",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
+}
