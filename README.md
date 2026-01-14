@@ -10,6 +10,7 @@ polym is a monorepo of composable packages for interacting with Polymarket predi
 - **`@polym/bot`**: Trading engine with pluggable strategy logic
 - **`@polym/cli`**: Command-line tools for account info, markets, and bot control
 - **`@polym/config`**: Configuration loading and validation
+- **`@polym/alerts`**: Unified alert broadcasting to Discord, Telegram, etc.
 - **`@polym/merger`**: Position merging utilities (stub)
 - **`@polym/utils`**: Shared helpers (terminal UI, formatting)
 
@@ -25,6 +26,7 @@ packages/
 ├── bot/         # Trading engine and strategy logic
 ├── cli/         # Command-line interface
 ├── config/      # Configuration loading
+├── alerts/      # Alert broadcasting (Discord, Telegram)
 ├── merger/      # Position merging utilities
 └── utils/       # Shared utilities
 
@@ -88,6 +90,7 @@ bun run polym markets snapshot
 | `@polym/bot`    | Event-driven trading engine with order book state, position tracking, and strategy evaluation |
 | `@polym/cli`    | `polym` binary with `account`, `markets`, and `bot` subcommands                               |
 | `@polym/config` | Loads and validates `bot.config.json` via c12                                                 |
+| `@polym/alerts` | Unified alert broadcasting to Discord, Telegram, and custom providers                         |
 | `@polym/merger` | Utilities for merging opposing positions to free capital                                      |
 | `@polym/utils`  | Terminal helpers (spinners, prompts), formatting utilities                                    |
 
