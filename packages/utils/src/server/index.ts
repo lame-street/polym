@@ -11,7 +11,7 @@ export type {
 } from './types'
 
 export { Spinner } from './spinner'
-export { cursor, isInteractive, stripAnsi } from './terminal'
+export { cancel, cursor, hl, intro, isInteractive, log, outro, stripAnsi } from './terminal'
 export { runStep } from './run-step'
 export { runSteps } from './run-steps'
 export {

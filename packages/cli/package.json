@@ -1,0 +1,37 @@
+{
+	"name": "@polym/cli",
+	"version": "0.0.0",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.mts",
+			"import": "./dist/index.mjs"
+		}
+	},
+	"bin": {
+		"polym": "./dist/bin.mjs"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsdown",
+		"dev": "bun src/bin",
+		"test": "bun test --no-env-file"
+	},
+	"dependencies": {
+		"@clack/prompts": "^0.11.0",
+		"@polym/bot": "workspace:*",
+		"@polym/config": "workspace:*",
+		"@polym/sdk": "workspace:*",
+		"@polym/utils": "workspace:*",
+		"commander": "^14.0.2"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"tsdown": "^0.20.0-beta.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
+}

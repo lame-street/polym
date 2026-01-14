@@ -1,0 +1,33 @@
+{
+	"$schema": "./bot.config.schema.json",
+	"markets": [
+		{
+			"conditionId": "0x1234567890abcdef...",
+			"question": "Will BTC reach $100k by end of 2025?",
+			"token1": "12345678901234567890",
+			"token2": "09876543210987654321",
+			"answer1": "Yes",
+			"answer2": "No",
+			"tickSize": 0.01,
+			"negRisk": false,
+			"maxSpread": 5,
+			"minSize": 5,
+			"tradeSize": 20,
+			"maxSize": 100
+		}
+	],
+	"strategy": {
+		"stopLossThreshold": -10,
+		"takeProfitThreshold": 5,
+		"spreadThreshold": 0.02,
+		"volatilityThreshold": 20,
+		"sleepPeriod": 6
+	},
+	"strategyOverrides": {
+		"volatile": {
+			"stopLossThreshold": -5,
+			"takeProfitThreshold": 10,
+			"volatilityThreshold": 30
+		}
+	}
+}

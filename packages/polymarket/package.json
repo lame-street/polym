@@ -1,0 +1,50 @@
+{
+	"name": "@polym/sdk",
+	"version": "0.0.0",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.mts",
+			"import": "./dist/index.mjs"
+		},
+		"./rest": {
+			"types": "./dist/rest/index.d.mts",
+			"import": "./dist/rest/index.mjs"
+		},
+		"./rtds": {
+			"types": "./dist/rtds/index.d.mts",
+			"import": "./dist/rtds/index.mjs"
+		},
+		"./ws": {
+			"types": "./dist/ws/index.d.mts",
+			"import": "./dist/ws/index.mjs"
+		},
+		"./types": {
+			"types": "./dist/types/index.d.mts",
+			"import": "./dist/types/index.mjs"
+		}
+	},
+	"main": "dist/index.mjs",
+	"types": "dist/index.d.mts",
+	"scripts": {
+		"build": "tsdown",
+		"test": "bun test --no-env-file unit.test.ts",
+		"test:e2e": "bun test --no-env-file e2e.test.ts"
+	},
+	"dependencies": {
+		"@polymarket/clob-client": "^5.2.1",
+		"@polymarket/real-time-data-client": "^1.4.0",
+		"ethers": "^5",
+		"partysocket": "^1.1.10",
+		"zod": "^4.3.5"
+	},
+	"devDependencies": {
+		"@clack/prompts": "^0.11.0",
+		"@types/bun": "latest",
+		"colorette": "^2.0.20",
+		"tsdown": "^0.20.0-beta.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
+}

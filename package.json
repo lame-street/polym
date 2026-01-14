@@ -19,6 +19,9 @@
 		"workspace:list": "bun scripts/monorepo/list.ts",
 		"workspace:remove": "bun scripts/monorepo/remove-package.ts"
 	},
+	"dependencies": {
+		"colorette": "^2.0.20"
+	},
 	"devDependencies": {
 		"@clack/prompts": "^0.11.0",
 		"@ianvs/prettier-plugin-sort-imports": "^4.7.0",

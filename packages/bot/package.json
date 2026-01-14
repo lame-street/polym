@@ -1,21 +1,19 @@
 {
-	"name": "@polym/utils",
+	"name": "@polym/bot",
 	"version": "0.0.0",
 	"type": "module",
 	"exports": {
 		".": {
 			"import": "./src/index.ts"
-		},
-		"./server": {
-			"import": "./src/server/index.ts"
 		}
 	},
 	"scripts": {
 		"test": "bun test --no-env-file"
 	},
 	"dependencies": {
-		"@clack/prompts": "^0.11.0",
-		"colorette": "^2.0.20"
+		"@polym/config": "workspace:*",
+		"@polym/sdk": "workspace:*",
+		"@polym/utils": "workspace:*"
 	},
 	"devDependencies": {
 		"@types/bun": "latest"

@@ -48,3 +48,6 @@ examples/**/sst-env.d.ts
 
 # srcref - fetched source code
 srcref/
+
+# bot config (contains secrets references)
+config/bot.config.json

@@ -1,0 +1,137 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "BotConfig",
+	"description": "Configuration for the Polym trading bot",
+	"type": "object",
+	"required": ["markets", "strategy"],
+	"properties": {
+		"markets": {
+			"type": "array",
+			"description": "Markets to trade",
+			"items": {
+				"$ref": "#/definitions/MarketConfig"
+			}
+		},
+		"strategy": {
+			"$ref": "#/definitions/StrategyParams"
+		},
+		"strategyOverrides": {
+			"type": "object",
+			"description": "Override strategy params per market type",
+			"additionalProperties": {
+				"$ref": "#/definitions/StrategyParamsPartial"
+			}
+		}
+	},
+	"definitions": {
+		"MarketConfig": {
+			"type": "object",
+			"required": [
+				"conditionId",
+				"question",
+				"token1",
+				"token2",
+				"answer1",
+				"answer2",
+				"tickSize",
+				"negRisk",
+				"maxSpread",
+				"minSize",
+				"tradeSize",
+				"maxSize"
+			],
+			"properties": {
+				"conditionId": {
+					"type": "string",
+					"description": "Polymarket condition_id"
+				},
+				"question": {
+					"type": "string",
+					"description": "Human-readable question/description"
+				},
+				"token1": {
+					"type": "string",
+					"description": "Token ID for outcome 1 (YES)"
+				},
+				"token2": {
+					"type": "string",
+					"description": "Token ID for outcome 2 (NO)"
+				},
+				"answer1": {
+					"type": "string",
+					"description": "Answer label for outcome 1"
+				},
+				"answer2": {
+					"type": "string",
+					"description": "Answer label for outcome 2"
+				},
+				"tickSize": {
+					"type": "number",
+					"description": "Minimum tick size for this market"
+				},
+				"negRisk": {
+					"type": "boolean",
+					"description": "Whether this is a negative risk market"
+				},
+				"maxSpread": {
+					"type": "number",
+					"description": "Maximum spread to place orders within (%)"
+				},
+				"minSize": {
+					"type": "number",
+					"description": "Minimum order size"
+				},
+				"tradeSize": {
+					"type": "number",
+					"description": "Default trade size"
+				},
+				"maxSize": {
+					"type": "number",
+					"description": "Maximum position size per outcome"
+				}
+			}
+		},
+		"StrategyParams": {
+			"type": "object",
+			"required": [
+				"stopLossThreshold",
+				"takeProfitThreshold",
+				"spreadThreshold",
+				"volatilityThreshold",
+				"sleepPeriod"
+			],
+			"properties": {
+				"stopLossThreshold": {
+					"type": "number",
+					"description": "Stop loss threshold (% from entry)"
+				},
+				"takeProfitThreshold": {
+					"type": "number",
+					"description": "Take profit target (% from entry)"
+				},
+				"spreadThreshold": {
+					"type": "number",
+					"description": "Max spread for stop-loss execution"
+				},
+				"volatilityThreshold": {
+					"type": "number",
+					"description": "Max volatility before pausing buys"
+				},
+				"sleepPeriod": {
+					"type": "number",
+					"description": "Hours to wait after stop-loss"
+				}
+			}
+		},
+		"StrategyParamsPartial": {
+			"type": "object",
+			"properties": {
+				"stopLossThreshold": { "type": "number" },
+				"takeProfitThreshold": { "type": "number" },
+				"spreadThreshold": { "type": "number" },
+				"volatilityThreshold": { "type": "number" },
+				"sleepPeriod": { "type": "number" }
+			}
+		}
+	}
+}

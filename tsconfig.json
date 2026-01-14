@@ -6,6 +6,21 @@
 		},
 		{
 			"path": "packages/constants"
+		},
+		{
+			"path": "packages/polymarket"
+		},
+		{
+			"path": "packages/bot"
+		},
+		{
+			"path": "packages/cli"
+		},
+		{
+			"path": "packages/merger"
+		},
+		{
+			"path": "packages/config"
 		}
 	]
 }
