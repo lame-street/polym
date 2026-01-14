@@ -94,3 +94,49 @@ export interface AlertProvider {
 	 */
 	isHealthy(): Promise<boolean>
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Broadcaster Types
+// ─────────────────────────────────────────────────────────────────────────────
+
+/**
+ * Result from broadcasting to a single provider.
+ */
+export interface BroadcastProviderResult {
+	/** Provider name */
+	provider: string
+	/** Provider type */
+	type: string
+	/** Result from the provider */
+	result: AlertResult
+}
+
+/**
+ * Aggregated result from broadcasting to all providers.
+ */
+export interface BroadcastResult {
+	/** Whether all providers succeeded */
+	allSucceeded: boolean
+	/** Number of providers that succeeded */
+	successCount: number
+	/** Number of providers that failed */
+	failureCount: number
+	/** Results from each provider */
+	results: BroadcastProviderResult[]
+}
+
+/**
+ * Options for the broadcaster.
+ */
+export interface AlertBroadcasterOptions {
+	/**
+	 * Whether to continue sending to remaining providers if one fails.
+	 * Default: true
+	 */
+	continueOnError?: boolean
+	/**
+	 * Whether to send to providers in parallel.
+	 * Default: true
+	 */
+	parallel?: boolean
+}
