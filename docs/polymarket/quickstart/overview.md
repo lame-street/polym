@@ -1,0 +1,61 @@
+---
+url: "https://docs.polymarket.com/quickstart/overview"
+title: "Developer Quickstart - Polymarket Documentation"
+---
+
+# Developer Quickstart
+
+Get started building with Polymarket APIs
+
+Polymarket provides a suite of APIs and SDKs for building prediction market applications. This guide will help you understand what’s available and where to find it.
+
+* * *
+
+## What Can You Build?
+
+| If you want to… | Start here |
+| --- | --- |
+| Fetch markets & prices | [Fetching Market Data](https://docs.polymarket.com/quickstart/fetching-data) |
+| Place orders for yourself | [Placing Your First Order](https://docs.polymarket.com/quickstart/first-order) |
+| Build a trading app for users | [Builders Program Introduction](https://docs.polymarket.com/developers/builders/builder-intro) |
+| Provide liquidity | [Market Makers](https://docs.polymarket.com/developers/market-makers/introduction) |
+
+* * *
+
+## APIs at a Glance
+
+### Markets & Data
+
+[**Gamma API**
+**Market discovery & metadata**Fetch events, markets, categories, and resolution data. This is where you discover what’s tradeable.`https://gamma-api.polymarket.com`](https://docs.polymarket.com/developers/gamma-markets-api/overview) [**CLOB API**
+**Prices, orderbooks & trading**Get real-time prices, orderbook depth, and place orders. The core trading API.`https://clob.polymarket.com`](https://docs.polymarket.com/developers/CLOB/introduction) [**Data API**
+**Positions, activity & history**Query user positions, trade history, and portfolio data.`https://data-api.polymarket.com`](https://docs.polymarket.com/developers/misc-endpoints/data-api-get-positions) [**WebSocket**
+**Real-time updates**Subscribe to orderbook changes, price updates, and order status.`wss://ws-subscriptions-clob.polymarket.com`](https://docs.polymarket.com/developers/CLOB/websocket/wss-overview)
+
+### Additional Data Sources
+
+[**RTDS**
+**Low-latency data stream**Real-time crypto prices and comments. Optimized for market makers.](https://docs.polymarket.com/developers/RTDS/RTDS-overview) [**Subgraph**
+**Onchain queries**Query blockchain state directly via GraphQL.](https://docs.polymarket.com/developers/subgraph/overview)
+
+### Trading Infrastructure
+
+[**CTF Operations**
+**Token split/merge/redeem**Convert between USDC and outcome tokens. Essential for inventory management.](https://docs.polymarket.com/developers/CTF/overview) [**Relayer Client**
+**Gasless transactions**Builders can offer gasfree transactions via Polymarket’s relayer.](https://docs.polymarket.com/developers/builders/relayer-client)
+
+* * *
+
+## SDKs & Libraries
+
+[**CLOB Client (TypeScript)**
+`npm install @polymarket/clob-client`](https://github.com/Polymarket/clob-client) [**CLOB Client (Python)**
+`pip install py-clob-client`](https://github.com/Polymarket/py-clob-client)
+
+For builders routing orders for users:
+
+[**Relayer Client**
+Gasless wallet operations](https://github.com/Polymarket/builder-relayer-client) [**Signing SDK**
+Builder authentication headers](https://github.com/Polymarket/builder-signing-sdk)
+
+[Fetching Market Data](https://docs.polymarket.com/quickstart/fetching-data)

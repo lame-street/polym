@@ -1,0 +1,1478 @@
+[
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/bridge/create-deposit-addresses",
+    "title": "Create deposit addresses - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_bridge_create-deposit-addresses.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/bridge/create-deposit-addresses.md",
+    "dest_relpath": "api-reference/bridge/create-deposit-addresses.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/bridge/get-deposit-status",
+    "title": "Get deposit status - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_bridge_get-deposit-status.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/bridge/get-deposit-status.md",
+    "dest_relpath": "api-reference/bridge/get-deposit-status.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/bridge/get-supported-assets",
+    "title": "Get supported assets - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_bridge_get-supported-assets.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/bridge/get-supported-assets.md",
+    "dest_relpath": "api-reference/bridge/get-supported-assets.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/builders/get-aggregated-builder-leaderboard",
+    "title": "Get aggregated builder leaderboard - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_builders_get-aggregated-builder-leaderboard.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/builders/get-aggregated-builder-leaderboard.md",
+    "dest_relpath": "api-reference/builders/get-aggregated-builder-leaderboard.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/builders/get-daily-builder-volume-time-series",
+    "title": "Get daily builder volume time-series - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_builders_get-daily-builder-volume-time-series.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/builders/get-daily-builder-volume-time-series.md",
+    "dest_relpath": "api-reference/builders/get-daily-builder-volume-time-series.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/comments/get-comments-by-comment-id",
+    "title": "Get comments by comment id - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_comments_get-comments-by-comment-id.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/comments/get-comments-by-comment-id.md",
+    "dest_relpath": "api-reference/comments/get-comments-by-comment-id.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/comments/get-comments-by-user-address",
+    "title": "Get comments by user address - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_comments_get-comments-by-user-address.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/comments/get-comments-by-user-address.md",
+    "dest_relpath": "api-reference/comments/get-comments-by-user-address.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/comments/list-comments",
+    "title": "List comments - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_comments_list-comments.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/comments/list-comments.md",
+    "dest_relpath": "api-reference/comments/list-comments.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-closed-positions-for-a-user",
+    "title": "Get closed positions for a user - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-closed-positions-for-a-user.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-closed-positions-for-a-user.md",
+    "dest_relpath": "api-reference/core/get-closed-positions-for-a-user.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-closed-positions-for-a-user.md",
+    "title": null,
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-closed-positions-for-a-user.md.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-closed-positions-for-a-user__md.md",
+    "dest_relpath": "api-reference/core/get-closed-positions-for-a-user__md.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-current-positions-for-a-user",
+    "title": "Get current positions for a user - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-current-positions-for-a-user.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-current-positions-for-a-user.md",
+    "dest_relpath": "api-reference/core/get-current-positions-for-a-user.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-current-positions-for-a-user.md",
+    "title": null,
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-current-positions-for-a-user.md.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-current-positions-for-a-user__md.md",
+    "dest_relpath": "api-reference/core/get-current-positions-for-a-user__md.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-top-holders-for-markets",
+    "title": "Get top holders for markets - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-top-holders-for-markets.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-top-holders-for-markets.md",
+    "dest_relpath": "api-reference/core/get-top-holders-for-markets.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-total-value-of-a-users-positions",
+    "title": "Get total value of a user's positions - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-total-value-of-a-users-positions.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-total-value-of-a-users-positions.md",
+    "dest_relpath": "api-reference/core/get-total-value-of-a-users-positions.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-total-value-of-a-users-positions.md",
+    "title": null,
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-total-value-of-a-users-positions.md.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-total-value-of-a-users-positions__md.md",
+    "dest_relpath": "api-reference/core/get-total-value-of-a-users-positions__md.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-trader-leaderboard-rankings",
+    "title": "Get trader leaderboard rankings - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-trader-leaderboard-rankings.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-trader-leaderboard-rankings.md",
+    "dest_relpath": "api-reference/core/get-trader-leaderboard-rankings.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-trades-for-a-user-or-markets",
+    "title": "Get trades for a user or markets - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-trades-for-a-user-or-markets.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-trades-for-a-user-or-markets.md",
+    "dest_relpath": "api-reference/core/get-trades-for-a-user-or-markets.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-trades-for-a-user-or-markets.md",
+    "title": null,
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-trades-for-a-user-or-markets.md.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-trades-for-a-user-or-markets__md.md",
+    "dest_relpath": "api-reference/core/get-trades-for-a-user-or-markets__md.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-user-activity",
+    "title": "Get user activity - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-user-activity.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-user-activity.md",
+    "dest_relpath": "api-reference/core/get-user-activity.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/core/get-user-activity.md",
+    "title": null,
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_core_get-user-activity.md.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/core/get-user-activity__md.md",
+    "dest_relpath": "api-reference/core/get-user-activity__md.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/data-api-status/data-api-health-check",
+    "title": "Data API Health check - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_data-api-status_data-api-health-check.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/data-api-status/data-api-health-check.md",
+    "dest_relpath": "api-reference/data-api-status/data-api-health-check.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/events/get-event-by-id",
+    "title": "Get event by id - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_events_get-event-by-id.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/events/get-event-by-id.md",
+    "dest_relpath": "api-reference/events/get-event-by-id.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/events/get-event-by-slug",
+    "title": "Get event by slug - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_events_get-event-by-slug.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/events/get-event-by-slug.md",
+    "dest_relpath": "api-reference/events/get-event-by-slug.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/events/get-event-tags",
+    "title": "Get event tags - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_events_get-event-tags.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/events/get-event-tags.md",
+    "dest_relpath": "api-reference/events/get-event-tags.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/events/list-events",
+    "title": "List events - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_events_list-events.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/events/list-events.md",
+    "dest_relpath": "api-reference/events/list-events.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/gamma-status/gamma-api-health-check",
+    "title": "Gamma API Health check - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_gamma-status_gamma-api-health-check.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/gamma-status/gamma-api-health-check.md",
+    "dest_relpath": "api-reference/gamma-status/gamma-api-health-check.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/markets/get-market-by-id",
+    "title": "Get market by id - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_markets_get-market-by-id.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/markets/get-market-by-id.md",
+    "dest_relpath": "api-reference/markets/get-market-by-id.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/markets/get-market-by-slug",
+    "title": "Get market by slug - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_markets_get-market-by-slug.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/markets/get-market-by-slug.md",
+    "dest_relpath": "api-reference/markets/get-market-by-slug.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/markets/get-market-tags-by-id",
+    "title": "Get market tags by id - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_markets_get-market-tags-by-id.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/markets/get-market-tags-by-id.md",
+    "dest_relpath": "api-reference/markets/get-market-tags-by-id.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/markets/list-markets",
+    "title": "List markets - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_markets_list-markets.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/markets/list-markets.md",
+    "dest_relpath": "api-reference/markets/list-markets.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/misc/get-live-volume-for-an-event",
+    "title": "Get live volume for an event - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_misc_get-live-volume-for-an-event.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/misc/get-live-volume-for-an-event.md",
+    "dest_relpath": "api-reference/misc/get-live-volume-for-an-event.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/misc/get-open-interest",
+    "title": "Get open interest - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_misc_get-open-interest.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/misc/get-open-interest.md",
+    "dest_relpath": "api-reference/misc/get-open-interest.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/misc/get-total-markets-a-user-has-traded",
+    "title": "Get total markets a user has traded - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_misc_get-total-markets-a-user-has-traded.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/misc/get-total-markets-a-user-has-traded.md",
+    "dest_relpath": "api-reference/misc/get-total-markets-a-user-has-traded.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/orderbook/get-multiple-order-books-summaries-by-request",
+    "title": "Get multiple order books summaries by request - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_orderbook_get-multiple-order-books-summaries-by-request.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/orderbook/get-multiple-order-books-summaries-by-request.md",
+    "dest_relpath": "api-reference/orderbook/get-multiple-order-books-summaries-by-request.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/orderbook/get-order-book-summary",
+    "title": "Get order book summary - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_orderbook_get-order-book-summary.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/orderbook/get-order-book-summary.md",
+    "dest_relpath": "api-reference/orderbook/get-order-book-summary.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/pricing/get-market-price",
+    "title": "Get market price - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_pricing_get-market-price.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/pricing/get-market-price.md",
+    "dest_relpath": "api-reference/pricing/get-market-price.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/pricing/get-midpoint-price",
+    "title": "Get midpoint price - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_pricing_get-midpoint-price.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/pricing/get-midpoint-price.md",
+    "dest_relpath": "api-reference/pricing/get-midpoint-price.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/pricing/get-multiple-market-prices-by-request",
+    "title": "Get multiple market prices by request - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_pricing_get-multiple-market-prices-by-request.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/pricing/get-multiple-market-prices-by-request.md",
+    "dest_relpath": "api-reference/pricing/get-multiple-market-prices-by-request.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/pricing/get-multiple-market-prices",
+    "title": "Get multiple market prices - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_pricing_get-multiple-market-prices.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/pricing/get-multiple-market-prices.md",
+    "dest_relpath": "api-reference/pricing/get-multiple-market-prices.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/pricing/get-price-history-for-a-traded-token",
+    "title": "Get price history for a traded token - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_pricing_get-price-history-for-a-traded-token.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/pricing/get-price-history-for-a-traded-token.md",
+    "dest_relpath": "api-reference/pricing/get-price-history-for-a-traded-token.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/profiles/get-public-profile-by-wallet-address",
+    "title": "Get public profile by wallet address - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_profiles_get-public-profile-by-wallet-address.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/profiles/get-public-profile-by-wallet-address.md",
+    "dest_relpath": "api-reference/profiles/get-public-profile-by-wallet-address.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/search/search-markets-events-and-profiles",
+    "title": "Search markets, events, and profiles - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_search_search-markets-events-and-profiles.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/search/search-markets-events-and-profiles.md",
+    "dest_relpath": "api-reference/search/search-markets-events-and-profiles.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/series/get-series-by-id",
+    "title": "Get series by id - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_series_get-series-by-id.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/series/get-series-by-id.md",
+    "dest_relpath": "api-reference/series/get-series-by-id.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/series/list-series",
+    "title": "List series - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_series_list-series.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/series/list-series.md",
+    "dest_relpath": "api-reference/series/list-series.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/sports/get-sports-metadata-information",
+    "title": "Get sports metadata information - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_sports_get-sports-metadata-information.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/sports/get-sports-metadata-information.md",
+    "dest_relpath": "api-reference/sports/get-sports-metadata-information.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/sports/get-valid-sports-market-types",
+    "title": "Get valid sports market types - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_sports_get-valid-sports-market-types.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/sports/get-valid-sports-market-types.md",
+    "dest_relpath": "api-reference/sports/get-valid-sports-market-types.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/sports/list-teams",
+    "title": "List teams - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_sports_list-teams.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/sports/list-teams.md",
+    "dest_relpath": "api-reference/sports/list-teams.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/spreads/get-bid-ask-spreads",
+    "title": "Get bid-ask spreads - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_spreads_get-bid-ask-spreads.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/spreads/get-bid-ask-spreads.md",
+    "dest_relpath": "api-reference/spreads/get-bid-ask-spreads.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/tags/get-related-tags-relationships-by-tag-id",
+    "title": "Get related tags (relationships) by tag id - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_tags_get-related-tags-relationships-by-tag-id.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/tags/get-related-tags-relationships-by-tag-id.md",
+    "dest_relpath": "api-reference/tags/get-related-tags-relationships-by-tag-id.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/tags/get-related-tags-relationships-by-tag-slug",
+    "title": "Get related tags (relationships) by tag slug - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_tags_get-related-tags-relationships-by-tag-slug.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/tags/get-related-tags-relationships-by-tag-slug.md",
+    "dest_relpath": "api-reference/tags/get-related-tags-relationships-by-tag-slug.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/tags/get-tag-by-id",
+    "title": "Get tag by id - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_tags_get-tag-by-id.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/tags/get-tag-by-id.md",
+    "dest_relpath": "api-reference/tags/get-tag-by-id.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/tags/get-tag-by-slug",
+    "title": "Get tag by slug - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_tags_get-tag-by-slug.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/tags/get-tag-by-slug.md",
+    "dest_relpath": "api-reference/tags/get-tag-by-slug.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/tags/get-tags-related-to-a-tag-id",
+    "title": "Get tags related to a tag id - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_tags_get-tags-related-to-a-tag-id.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/tags/get-tags-related-to-a-tag-id.md",
+    "dest_relpath": "api-reference/tags/get-tags-related-to-a-tag-id.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/tags/get-tags-related-to-a-tag-slug",
+    "title": "Get tags related to a tag slug - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_tags_get-tags-related-to-a-tag-slug.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/tags/get-tags-related-to-a-tag-slug.md",
+    "dest_relpath": "api-reference/tags/get-tags-related-to-a-tag-slug.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/api-reference/tags/list-tags",
+    "title": "List tags - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_api-reference_tags_list-tags.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/api-reference/tags/list-tags.md",
+    "dest_relpath": "api-reference/tags/list-tags.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/changelog/changelog",
+    "title": "Polymarket Changelog - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_changelog_changelog.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/changelog/changelog.md",
+    "dest_relpath": "changelog/changelog.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/authentication",
+    "title": "Authentication - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_authentication.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/authentication.md",
+    "dest_relpath": "developers/CLOB/authentication.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/clients/methods-builder",
+    "title": "Builder Methods - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_clients_methods-builder.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/clients/methods-builder.md",
+    "dest_relpath": "developers/CLOB/clients/methods-builder.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/clients/methods-l1",
+    "title": "L1 Methods - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_clients_methods-l1.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/clients/methods-l1.md",
+    "dest_relpath": "developers/CLOB/clients/methods-l1.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/clients/methods-l2",
+    "title": "L2 Methods - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_clients_methods-l2.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/clients/methods-l2.md",
+    "dest_relpath": "developers/CLOB/clients/methods-l2.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/clients/methods-overview",
+    "title": "Methods Overview - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_clients_methods-overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/clients/methods-overview.md",
+    "dest_relpath": "developers/CLOB/clients/methods-overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/clients/methods-public",
+    "title": "Public Methods - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_clients_methods-public.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/clients/methods-public.md",
+    "dest_relpath": "developers/CLOB/clients/methods-public.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/geoblock",
+    "title": "Geographic Restrictions - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_geoblock.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/geoblock.md",
+    "dest_relpath": "developers/CLOB/geoblock.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/introduction",
+    "title": "CLOB Introduction - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_introduction.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/introduction.md",
+    "dest_relpath": "developers/CLOB/introduction.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/orders/cancel-orders",
+    "title": "Cancel Orders(s) - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_orders_cancel-orders.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/orders/cancel-orders.md",
+    "dest_relpath": "developers/CLOB/orders/cancel-orders.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/orders/check-scoring",
+    "title": "Check Order Reward Scoring - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_orders_check-scoring.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/orders/check-scoring.md",
+    "dest_relpath": "developers/CLOB/orders/check-scoring.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/orders/create-order-batch",
+    "title": "Place Multiple Orders (Batching) - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_orders_create-order-batch.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/orders/create-order-batch.md",
+    "dest_relpath": "developers/CLOB/orders/create-order-batch.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/orders/create-order",
+    "title": "Place Single Order - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_orders_create-order.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/orders/create-order.md",
+    "dest_relpath": "developers/CLOB/orders/create-order.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/orders/get-active-order",
+    "title": "Get Active Orders - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_orders_get-active-order.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/orders/get-active-order.md",
+    "dest_relpath": "developers/CLOB/orders/get-active-order.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/orders/get-order",
+    "title": "Get Order - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_orders_get-order.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/orders/get-order.md",
+    "dest_relpath": "developers/CLOB/orders/get-order.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/orders/onchain-order-info",
+    "title": "Onchain Order Info - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_orders_onchain-order-info.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/orders/onchain-order-info.md",
+    "dest_relpath": "developers/CLOB/orders/onchain-order-info.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/orders/orders",
+    "title": "Orders Overview - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_orders_orders.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/orders/orders.md",
+    "dest_relpath": "developers/CLOB/orders/orders.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/quickstart",
+    "title": "Quickstart - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_quickstart.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/quickstart.md",
+    "dest_relpath": "developers/CLOB/quickstart.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/status",
+    "title": "Status - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_status.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/status.md",
+    "dest_relpath": "developers/CLOB/status.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/timeseries",
+    "title": "Historical Timeseries Data - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_timeseries.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/timeseries.md",
+    "dest_relpath": "developers/CLOB/timeseries.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/trades/trades-overview",
+    "title": "Trades Overview - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_trades_trades-overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/trades/trades-overview.md",
+    "dest_relpath": "developers/CLOB/trades/trades-overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/trades/trades",
+    "title": "Get Trades - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_trades_trades.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/trades/trades.md",
+    "dest_relpath": "developers/CLOB/trades/trades.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/websocket/market-channel-migration-guide",
+    "title": "Price Change Message Migration Guide - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_websocket_market-channel-migration-guide.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/websocket/market-channel-migration-guide.md",
+    "dest_relpath": "developers/CLOB/websocket/market-channel-migration-guide.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/websocket/market-channel",
+    "title": "Market Channel - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_websocket_market-channel.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/websocket/market-channel.md",
+    "dest_relpath": "developers/CLOB/websocket/market-channel.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/websocket/user-channel",
+    "title": "User Channel - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_websocket_user-channel.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/websocket/user-channel.md",
+    "dest_relpath": "developers/CLOB/websocket/user-channel.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/websocket/wss-auth",
+    "title": "WSS Authentication - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_websocket_wss-auth.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/websocket/wss-auth.md",
+    "dest_relpath": "developers/CLOB/websocket/wss-auth.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CLOB/websocket/wss-overview",
+    "title": "WSS Overview - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CLOB_websocket_wss-overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CLOB/websocket/wss-overview.md",
+    "dest_relpath": "developers/CLOB/websocket/wss-overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CTF/deployment-resources",
+    "title": "Deployment and Additional Information - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CTF_deployment-resources.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CTF/deployment-resources.md",
+    "dest_relpath": "developers/CTF/deployment-resources.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CTF/merge",
+    "title": "Merging Tokens - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CTF_merge.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CTF/merge.md",
+    "dest_relpath": "developers/CTF/merge.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CTF/overview",
+    "title": "Overview - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CTF_overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CTF/overview.md",
+    "dest_relpath": "developers/CTF/overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CTF/redeem",
+    "title": "Reedeeming Tokens - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CTF_redeem.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CTF/redeem.md",
+    "dest_relpath": "developers/CTF/redeem.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/CTF/split",
+    "title": "Splitting USDC - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_CTF_split.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/CTF/split.md",
+    "dest_relpath": "developers/CTF/split.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/RTDS/RTDS-comments",
+    "title": "RTDS Comments - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_RTDS_RTDS-comments.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/RTDS/RTDS-comments.md",
+    "dest_relpath": "developers/RTDS/RTDS-comments.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/RTDS/RTDS-crypto-prices",
+    "title": "RTDS Crypto Prices - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_RTDS_RTDS-crypto-prices.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/RTDS/RTDS-crypto-prices.md",
+    "dest_relpath": "developers/RTDS/RTDS-crypto-prices.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/RTDS/RTDS-overview",
+    "title": "Real Time Data Socket - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_RTDS_RTDS-overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/RTDS/RTDS-overview.md",
+    "dest_relpath": "developers/RTDS/RTDS-overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/builders/builder-intro",
+    "title": "Builder Program Introduction - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_builders_builder-intro.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/builders/builder-intro.md",
+    "dest_relpath": "developers/builders/builder-intro.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/builders/builder-profile",
+    "title": "Builder Profile & Keys - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_builders_builder-profile.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/builders/builder-profile.md",
+    "dest_relpath": "developers/builders/builder-profile.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/builders/builder-tiers",
+    "title": "Builder Tiers - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_builders_builder-tiers.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/builders/builder-tiers.md",
+    "dest_relpath": "developers/builders/builder-tiers.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/builders/examples",
+    "title": "Examples - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_builders_examples.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/builders/examples.md",
+    "dest_relpath": "developers/builders/examples.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/builders/order-attribution",
+    "title": "Order Attribution - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_builders_order-attribution.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/builders/order-attribution.md",
+    "dest_relpath": "developers/builders/order-attribution.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/builders/relayer-client",
+    "title": "Relayer Client - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_builders_relayer-client.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/builders/relayer-client.md",
+    "dest_relpath": "developers/builders/relayer-client.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/gamma-markets-api/fetch-markets-guide",
+    "title": "How to Fetch Markets - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_gamma-markets-api_fetch-markets-guide.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/gamma-markets-api/fetch-markets-guide.md",
+    "dest_relpath": "developers/gamma-markets-api/fetch-markets-guide.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/gamma-markets-api/gamma-structure",
+    "title": "Gamma Structure - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_gamma-markets-api_gamma-structure.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/gamma-markets-api/gamma-structure.md",
+    "dest_relpath": "developers/gamma-markets-api/gamma-structure.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/gamma-markets-api/get-events",
+    "title": "Get Events - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_gamma-markets-api_get-events.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/gamma-markets-api/get-events.md",
+    "dest_relpath": "developers/gamma-markets-api/get-events.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/gamma-markets-api/get-markets",
+    "title": "Get Markets - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_gamma-markets-api_get-markets.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/gamma-markets-api/get-markets.md",
+    "dest_relpath": "developers/gamma-markets-api/get-markets.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/gamma-markets-api/get-public-search",
+    "title": "Search Markets - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_gamma-markets-api_get-public-search.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/gamma-markets-api/get-public-search.md",
+    "dest_relpath": "developers/gamma-markets-api/get-public-search.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/gamma-markets-api/overview",
+    "title": "Overview - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_gamma-markets-api_overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/gamma-markets-api/overview.md",
+    "dest_relpath": "developers/gamma-markets-api/overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/market-makers/data-feeds",
+    "title": "Data Feeds - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_market-makers_data-feeds.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/market-makers/data-feeds.md",
+    "dest_relpath": "developers/market-makers/data-feeds.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/market-makers/introduction",
+    "title": "Market Maker Introduction - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_market-makers_introduction.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/market-makers/introduction.md",
+    "dest_relpath": "developers/market-makers/introduction.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/market-makers/inventory",
+    "title": "Inventory Management - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_market-makers_inventory.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/market-makers/inventory.md",
+    "dest_relpath": "developers/market-makers/inventory.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/market-makers/liquidity-rewards",
+    "title": "Liquidity Rewards - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_market-makers_liquidity-rewards.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/market-makers/liquidity-rewards.md",
+    "dest_relpath": "developers/market-makers/liquidity-rewards.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/market-makers/maker-rebates-program",
+    "title": "Maker Rebates Program - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_market-makers_maker-rebates-program.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/market-makers/maker-rebates-program.md",
+    "dest_relpath": "developers/market-makers/maker-rebates-program.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/market-makers/rfq/api-reference",
+    "title": "RFQ API Reference - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_market-makers_rfq_api-reference.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/market-makers/rfq/api-reference.md",
+    "dest_relpath": "developers/market-makers/rfq/api-reference.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/market-makers/rfq/overview",
+    "title": "RFQ Overview - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_market-makers_rfq_overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/market-makers/rfq/overview.md",
+    "dest_relpath": "developers/market-makers/rfq/overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/market-makers/setup",
+    "title": "Setup - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_market-makers_setup.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/market-makers/setup.md",
+    "dest_relpath": "developers/market-makers/setup.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/market-makers/trading",
+    "title": "Trading - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_market-makers_trading.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/market-makers/trading.md",
+    "dest_relpath": "developers/market-makers/trading.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/misc-endpoints/bridge-overview",
+    "title": "Overview - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_misc-endpoints_bridge-overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/misc-endpoints/bridge-overview.md",
+    "dest_relpath": "developers/misc-endpoints/bridge-overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/misc-endpoints/data-api-activity",
+    "title": "Get User On-Chain Activity (Data-API) - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_misc-endpoints_data-api-activity.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/misc-endpoints/data-api-activity.md",
+    "dest_relpath": "developers/misc-endpoints/data-api-activity.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/misc-endpoints/data-api-get-positions",
+    "title": "Get User Positions (Data-API) - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_misc-endpoints_data-api-get-positions.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/misc-endpoints/data-api-get-positions.md",
+    "dest_relpath": "developers/misc-endpoints/data-api-get-positions.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/misc-endpoints/data-api-value",
+    "title": "Get Holdings Value (Data-API) - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_misc-endpoints_data-api-value.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/misc-endpoints/data-api-value.md",
+    "dest_relpath": "developers/misc-endpoints/data-api-value.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/neg-risk/overview",
+    "title": "Overview - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_neg-risk_overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/neg-risk/overview.md",
+    "dest_relpath": "developers/neg-risk/overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/proxy-wallet",
+    "title": "Proxy wallet - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_proxy-wallet.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/proxy-wallet.md",
+    "dest_relpath": "developers/proxy-wallet.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/resolution/UMA",
+    "title": "Resolution - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_resolution_UMA.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/resolution/UMA.md",
+    "dest_relpath": "developers/resolution/UMA.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/developers/subgraph/overview",
+    "title": "Overview - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_developers_subgraph_overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/developers/subgraph/overview.md",
+    "dest_relpath": "developers/subgraph/overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/llms.txt",
+    "title": null,
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_llms.txt.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/llms.txt.md",
+    "dest_relpath": "llms.txt.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/does-polymarket-have-an-api",
+    "title": "Does Polymarket have an API? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_does-polymarket-have-an-api.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/does-polymarket-have-an-api.md",
+    "dest_relpath": "polymarket-learn/FAQ/does-polymarket-have-an-api.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/embeds",
+    "title": "How To Use Embeds - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_embeds.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/embeds.md",
+    "dest_relpath": "polymarket-learn/FAQ/embeds.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/geoblocking",
+    "title": "Geographic Restrictions - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_geoblocking.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/geoblocking.md",
+    "dest_relpath": "polymarket-learn/FAQ/geoblocking.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/how-to-export-private-key",
+    "title": "How Do I Export My Key? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_how-to-export-private-key.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/how-to-export-private-key.md",
+    "dest_relpath": "polymarket-learn/FAQ/how-to-export-private-key.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/is-my-money-safe",
+    "title": "Is My Money Safe? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_is-my-money-safe.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/is-my-money-safe.md",
+    "dest_relpath": "polymarket-learn/FAQ/is-my-money-safe.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/is-polymarket-the-house",
+    "title": "Is Polymarket The House? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_is-polymarket-the-house.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/is-polymarket-the-house.md",
+    "dest_relpath": "polymarket-learn/FAQ/is-polymarket-the-house.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/polling",
+    "title": "Polymarket vs. Polling - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_polling.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/polling.md",
+    "dest_relpath": "polymarket-learn/FAQ/polling.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/recover-missing-deposit",
+    "title": "Recover Missing Deposit - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_recover-missing-deposit.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/recover-missing-deposit.md",
+    "dest_relpath": "polymarket-learn/FAQ/recover-missing-deposit.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/sell-early",
+    "title": "Can I Sell Early? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_sell-early.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/sell-early.md",
+    "dest_relpath": "polymarket-learn/FAQ/sell-early.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/support",
+    "title": "How Do I Contact Support? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_support.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/support.md",
+    "dest_relpath": "polymarket-learn/FAQ/support.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/wen-token",
+    "title": "Does Polymarket Have a Token? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_wen-token.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/wen-token.md",
+    "dest_relpath": "polymarket-learn/FAQ/wen-token.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/what-are-prediction-markets",
+    "title": "What is a Prediction Market? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_what-are-prediction-markets.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/what-are-prediction-markets.md",
+    "dest_relpath": "polymarket-learn/FAQ/what-are-prediction-markets.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/FAQ/why-do-i-need-crypto",
+    "title": "Why Crypto? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_FAQ_why-do-i-need-crypto.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/FAQ/why-do-i-need-crypto.md",
+    "dest_relpath": "polymarket-learn/FAQ/why-do-i-need-crypto.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/deposits/coinbase",
+    "title": "Deposit with Coinbase - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_deposits_coinbase.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/deposits/coinbase.md",
+    "dest_relpath": "polymarket-learn/deposits/coinbase.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/deposits/how-to-withdraw",
+    "title": "How to Withdraw - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_deposits_how-to-withdraw.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/deposits/how-to-withdraw.md",
+    "dest_relpath": "polymarket-learn/deposits/how-to-withdraw.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/deposits/large-cross-chain-deposits",
+    "title": "Large Cross Chain Deposits - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_deposits_large-cross-chain-deposits.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/deposits/large-cross-chain-deposits.md",
+    "dest_relpath": "polymarket-learn/deposits/large-cross-chain-deposits.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/deposits/moonpay",
+    "title": "Deposit Using Your Card - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_deposits_moonpay.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/deposits/moonpay.md",
+    "dest_relpath": "polymarket-learn/deposits/moonpay.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/deposits/supported-tokens",
+    "title": "Deposit by Transfering Crypto - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_deposits_supported-tokens.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/deposits/supported-tokens.md",
+    "dest_relpath": "polymarket-learn/deposits/supported-tokens.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/deposits/usdc-on-eth",
+    "title": "Deposit USDC on Ethereum - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_deposits_usdc-on-eth.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/deposits/usdc-on-eth.md",
+    "dest_relpath": "polymarket-learn/deposits/usdc-on-eth.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/get-started/how-to-deposit",
+    "title": "How to Deposit - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_get-started_how-to-deposit.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/get-started/how-to-deposit.md",
+    "dest_relpath": "polymarket-learn/get-started/how-to-deposit.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/get-started/how-to-signup",
+    "title": "How to Sign-Up - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_get-started_how-to-signup.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/get-started/how-to-signup.md",
+    "dest_relpath": "polymarket-learn/get-started/how-to-signup.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/get-started/making-your-first-trade",
+    "title": "Making Your First Trade - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_get-started_making-your-first-trade.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/get-started/making-your-first-trade.md",
+    "dest_relpath": "polymarket-learn/get-started/making-your-first-trade.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/get-started/what-is-polymarket",
+    "title": "What is Polymarket? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_get-started_what-is-polymarket.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/get-started/what-is-polymarket.md",
+    "dest_relpath": "polymarket-learn/get-started/what-is-polymarket.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/markets/dispute",
+    "title": "How Are Markets Disputed? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_markets_dispute.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/markets/dispute.md",
+    "dest_relpath": "polymarket-learn/markets/dispute.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/markets/how-are-markets-clarified",
+    "title": "How Are Markets Clarified? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_markets_how-are-markets-clarified.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/markets/how-are-markets-clarified.md",
+    "dest_relpath": "polymarket-learn/markets/how-are-markets-clarified.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/markets/how-are-markets-created",
+    "title": "How Are Markets Created? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_markets_how-are-markets-created.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/markets/how-are-markets-created.md",
+    "dest_relpath": "polymarket-learn/markets/how-are-markets-created.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/markets/how-are-markets-resolved",
+    "title": "How Are Prediction Markets Resolved? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_markets_how-are-markets-resolved.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/markets/how-are-markets-resolved.md",
+    "dest_relpath": "polymarket-learn/markets/how-are-markets-resolved.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/trading/fees",
+    "title": "Trading Fees - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_trading_fees.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/trading/fees.md",
+    "dest_relpath": "polymarket-learn/trading/fees.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/trading/holding-rewards",
+    "title": "Holding Rewards - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_trading_holding-rewards.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/trading/holding-rewards.md",
+    "dest_relpath": "polymarket-learn/trading/holding-rewards.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/trading/how-are-prices-calculated",
+    "title": "How Are Prices Calculated? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_trading_how-are-prices-calculated.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/trading/how-are-prices-calculated.md",
+    "dest_relpath": "polymarket-learn/trading/how-are-prices-calculated.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/trading/limit-orders",
+    "title": "Limit Orders - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_trading_limit-orders.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/trading/limit-orders.md",
+    "dest_relpath": "polymarket-learn/trading/limit-orders.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/trading/liquidity-rewards",
+    "title": "Liquidity Rewards - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_trading_liquidity-rewards.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/trading/liquidity-rewards.md",
+    "dest_relpath": "polymarket-learn/trading/liquidity-rewards.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/trading/maker-rebates-program",
+    "title": "Maker Rebates Program - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_trading_maker-rebates-program.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/trading/maker-rebates-program.md",
+    "dest_relpath": "polymarket-learn/trading/maker-rebates-program.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/trading/market-orders",
+    "title": "Market Orders - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_trading_market-orders.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/trading/market-orders.md",
+    "dest_relpath": "polymarket-learn/trading/market-orders.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/trading/no-limits",
+    "title": "Does Polymarket Have Trading Limits? - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_trading_no-limits.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/trading/no-limits.md",
+    "dest_relpath": "polymarket-learn/trading/no-limits.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/polymarket-learn/trading/using-the-orderbook",
+    "title": "Using the Order Book - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_polymarket-learn_trading_using-the-orderbook.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/polymarket-learn/trading/using-the-orderbook.md",
+    "dest_relpath": "polymarket-learn/trading/using-the-orderbook.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/quickstart/fetching-data",
+    "title": "Fetching Market Data - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_quickstart_fetching-data.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/quickstart/fetching-data.md",
+    "dest_relpath": "quickstart/fetching-data.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/quickstart/first-order",
+    "title": "Placing Your First Order - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_quickstart_first-order.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/quickstart/first-order.md",
+    "dest_relpath": "quickstart/first-order.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/quickstart/introduction/rate-limits",
+    "title": "API Rate Limits - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_quickstart_introduction_rate-limits.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/quickstart/introduction/rate-limits.md",
+    "dest_relpath": "quickstart/introduction/rate-limits.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/quickstart/overview",
+    "title": "Developer Quickstart - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_quickstart_overview.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/quickstart/overview.md",
+    "dest_relpath": "quickstart/overview.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/quickstart/reference/endpoints",
+    "title": "Endpoints - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_quickstart_reference_endpoints.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/quickstart/reference/endpoints.md",
+    "dest_relpath": "quickstart/reference/endpoints.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/quickstart/reference/glossary",
+    "title": "Glossary - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_quickstart_reference_glossary.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/quickstart/reference/glossary.md",
+    "dest_relpath": "quickstart/reference/glossary.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/quickstart/websocket/WSS-Quickstart",
+    "title": "WSS Quickstart - Polymarket Documentation",
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_quickstart_websocket_WSS-Quickstart.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/quickstart/websocket/WSS-Quickstart.md",
+    "dest_relpath": "quickstart/websocket/WSS-Quickstart.md",
+    "collision_renamed": false
+  },
+  {
+    "kind": "md",
+    "url": "https://docs.polymarket.com/sitemap.xml",
+    "title": null,
+    "source_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6/docs.polymarket.com_sitemap.xml.md",
+    "dest_path": "/Users/nilsl/Documents/PM/poly_docs_md_clean_v6_grouped/sitemap.xml.md",
+    "dest_relpath": "sitemap.xml.md",
+    "collision_renamed": false
+  }
+]

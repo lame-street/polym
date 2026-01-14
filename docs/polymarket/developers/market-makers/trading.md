@@ -1,0 +1,194 @@
+---
+url: "https://docs.polymarket.com/developers/market-makers/trading"
+title: "Trading - Polymarket Documentation"
+---
+
+# Trading
+
+CLOB order entry and management for market makers
+
+## Overview
+
+Market makers primarily interact with Polymarket through the CLOB (Central Limit Order Book) API to post and manage limit orders.
+
+## Order Entry
+
+### Posting Limit Orders
+
+Use the CLOB client to create and post limit orders:
+
+```
+import { ClobClient, Side, OrderType } from "@polymarket/clob-client";
+
+const client = new ClobClient(
+  "https://clob.polymarket.com",
+  137,
+  wallet,
+  credentials,
+  signatureType,
+  funder
+);
+
+// Post a bid (buy order)
+const bidOrder = await client.createAndPostOrder({
+  tokenID: "34097058504275310827233323421517291090691602969494795225921954353603704046623",
+  side: Side.BUY,
+  price: 0.48,
+  size: 1000,
+  orderType: OrderType.GTC
+});
+
+// Post an ask (sell order)
+const askOrder = await client.createAndPostOrder({
+  tokenID: "34097058504275310827233323421517291090691602969494795225921954353603704046623",
+  side: Side.SELL,
+  price: 0.52,
+  size: 1000,
+  orderType: OrderType.GTC
+});
+```
+
+See [Create Order](https://docs.polymarket.com/developers/CLOB/clients/methods-l1#createandpostorder) for full documentation.
+
+### Batch Orders
+
+For efficiency, post multiple orders in a single request:
+
+```
+const orders = await Promise.all([\
+  client.createOrder({ tokenID, side: Side.BUY, price: 0.48, size: 500 }),\
+  client.createOrder({ tokenID, side: Side.BUY, price: 0.47, size: 500 }),\
+  client.createOrder({ tokenID, side: Side.SELL, price: 0.52, size: 500 }),\
+  client.createOrder({ tokenID, side: Side.SELL, price: 0.53, size: 500 })\
+]);
+
+const response = await client.postOrders(
+  orders.map(order => ({ order, orderType: OrderType.GTC }))
+);
+```
+
+See [Post Orders Batch](https://docs.polymarket.com/developers/CLOB/clients/methods-l2#postorders) for details.
+
+## Order Types
+
+| Type | Behavior | MM Use Case |
+| --- | --- | --- |
+| **GTC** (Good Till Cancelled) | Rests on book until filled or cancelled | Default for passive quoting |
+| **GTD** (Good Till Date) | Auto-expires at specified time | Auto-expire before events |
+| **FOK** (Fill or Kill) | Fill entirely immediately or cancel | Aggressive rebalancing (all or nothing) |
+| **FAK** (Fill and Kill) | Fill available immediately, cancel rest | Partial rebalancing acceptable |
+
+### When to Use Each
+
+**For passive market making (maker orders):**
+
+- **GTC** \- Standard quotes that sit on the book
+- **GTD** \- Time-limited quotes (e.g., expire before market close)
+
+**For rebalancing (taker orders):**
+
+- **FOK** \- When you need exact size or nothing
+- **FAK** \- When partial fills are acceptable
+
+```
+// GTD example: expire in 1 hour
+const expiringOrder = await client.createOrder({
+  tokenID,
+  side: Side.BUY,
+  price: 0.50,
+  size: 1000,
+  orderType: OrderType.GTD,
+  expiration: Math.floor(Date.now() / 1000) + 3600 // 1 hour from now
+});
+```
+
+## Order Management
+
+### Cancel Orders
+
+Cancel individual orders or all orders:
+
+```
+// Cancel single order
+await client.cancelOrder(orderId);
+
+// Cancel multiple orders in a single calls
+await client.cancelOrders(orderIds: string[]);
+
+// Cancel all orders for a market
+await client.cancelMarketOrders(conditionId);
+
+// Cancel all orders
+await client.cancelAll();
+```
+
+See [Cancel Orders](https://docs.polymarket.com/developers/CLOB/clients/methods-l2#cancelorder) for full documentation.
+
+### Get Active Orders
+
+Monitor your open orders:
+
+```
+// Get active order
+const order = await client.getOrder(orderId);
+
+// Get active orders optionally filtered
+const orders = await client.getOpenOrders({
+  id?: string; // Order ID (hash)
+  market?: string; // Market condition ID
+  asset_id?: string; // Token ID
+});
+```
+
+See [Get Active Orders](https://docs.polymarket.com/developers/CLOB/clients/methods-l2#getorder) for details.
+
+## Best Practices
+
+### Quote Management
+
+1. **Two-sided quoting** \- Post both bids and asks to earn maximum [liquidity rewards](https://docs.polymarket.com/developers/market-makers/liquidity-rewards)
+2. **Monitor inventory** \- Skew quotes based on your position
+3. **Cancel stale quotes** \- Remove orders when market conditions change
+4. **Use GTD for events** \- Auto-expire quotes before known events
+
+### Latency Optimization
+
+1. **Batch orders** \- Use `postOrders()` instead of multiple `createAndPostOrder()` calls
+2. **WebSocket for data** \- Use WebSocket feeds instead of polling REST endpoints
+
+### Risk Management
+
+1. **Size limits** \- Check token balances before quoting; don’t exceed inventory
+2. **Price guards** \- Validate against book midpoint; reject outlier prices
+3. **Kill switch** \- Use `cancelAll()` on error or position breach
+4. **Monitor fills** \- Subscribe to WebSocket user channel for real-time fill updates
+
+## Tick Sizes
+
+Markets have different minimum price increments:
+
+```
+const tickSize = await client.getTickSize(tokenID);
+// Returns: "0.1" | "0.01" | "0.001" | "0.0001"
+```
+
+Ensure your prices conform to the market’s tick size.
+
+## Fee Structure
+
+| Role | Fee |
+| --- | --- |
+| Maker | 0 bps |
+| Taker | 0 bps |
+
+Current fees are 0% for both makers and takers. See [CLOB Introduction](https://docs.polymarket.com/developers/CLOB/introduction) for fee calculation details.
+
+## Related Documentation
+
+[**CLOB Client Overview**
+Complete client method reference](https://docs.polymarket.com/developers/CLOB/clients/methods-overview) [**L2 Methods**
+Authenticated order management methods](https://docs.polymarket.com/developers/CLOB/clients/methods-l2) [**WebSocket Feeds**
+Real-time order and market data](https://docs.polymarket.com/developers/CLOB/websocket/wss-overview) [**Liquidity Rewards**
+Earn rewards for providing liquidity](https://docs.polymarket.com/developers/market-makers/liquidity-rewards)
+
+[Setup](https://docs.polymarket.com/developers/market-makers/setup) [Liquidity Rewards](https://docs.polymarket.com/developers/market-makers/liquidity-rewards)
