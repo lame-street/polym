@@ -1,56 +1,35 @@
 # polym
 
-A minimalist TypeScript rewrite of [poly-maker](https://github.com/warproxxx/poly-maker) — a market-making bot for Polymarket prediction markets.
+TypeScript primitives for building on Polymarket.
 
 ## Overview
 
-polym is a from-scratch implementation inspired by poly-maker's approach to automated market making on Polymarket. It provides:
+polym is a monorepo of composable packages for interacting with Polymarket prediction markets:
 
-- Real-time order book monitoring via WebSockets
-- Inventory-aware quoting with configurable size/spread parameters
-- Position tracking and order management
-- A CLI for account info, market discovery, and bot control
+- **`@polym/sdk`**: Typed REST clients and WebSocket handlers
+- **`@polym/bot`**: Trading engine with pluggable strategy logic
+- **`@polym/cli`**: Command-line tools for account info, markets, and bot control
+- **`@polym/config`**: Configuration loading and validation
+- **`@polym/merger`**: Position merging utilities (stub)
+- **`@polym/utils`**: Shared helpers (terminal UI, formatting)
+
+Each package is designed with clear boundaries—use them together or pick what you need.
+
+The bot logic draws from [warproxxx/poly-maker](https://github.com/warproxxx/poly-maker), reimagined as typed, modular TypeScript.
 
 ## Project Structure
 
 ```
 packages/
-├── sdk/         # @polym/sdk – Typed REST + WebSocket clients for Polymarket
-├── bot/         # @polym/bot – Trading engine and strategy logic
-├── cli/         # @polym/cli – Command-line interface
-├── config/      # @polym/config – Configuration loading
-├── merger/      # @polym/merger – Position merging utilities
-└── utils/       # @polym/utils – Shared utilities
+├── sdk/         # REST + WebSocket clients for Polymarket APIs
+├── bot/         # Trading engine and strategy logic
+├── cli/         # Command-line interface
+├── config/      # Configuration loading
+├── merger/      # Position merging utilities
+└── utils/       # Shared utilities
 
 config/          # Bot configuration files (JSON)
 ```
-
-## Key Differences from poly-maker
-
-| Aspect               | poly-maker                               | polym                                  |
-| -------------------- | ---------------------------------------- | -------------------------------------- |
-| **Language**         | Python 3.9+                              | TypeScript (Bun)                       |
-| **Architecture**     | Single-process scripts with global state | Monorepo with isolated, typed packages |
-| **Configuration**    | Google Sheets (live updates)             | Local JSON files                       |
-| **State Management** | Global mutable dicts + pandas DataFrames | Typed Maps with functional updates     |
-| **SDK**              | Official Polymarket Python SDK           | Custom `@polym/sdk` with Zod schemas   |
-| **WebSockets**       | Raw `websockets` library                 | PartySocket with typed handlers        |
-| **Concurrency**      | Threading + asyncio mix                  | Single-threaded async (Bun)            |
-
-### What's Simplified
-
-polym intentionally omits some of poly-maker's features in favor of a smaller, more hackable codebase:
-
-- **No Google Sheets integration** — Config is static JSON; no live parameter updates
-- **No volatility-based guards** — The `3_hour` volatility checks are not implemented
-- **No position merging** — The merger module exists but isn't wired into the bot loop yet
-- **No separate data updater** — No background process for collecting market info from different IPs
-
-### What's Added
-
-- **Type safety** — Full TypeScript with branded IDs (`TokenId`, `ConditionId`), Zod codecs for wire formats
-- **Modular SDK** — REST clients and WebSocket handlers as separate, testable packages
-- **CLI tooling** — `polym account`, `polym markets`, `polym bot` commands out of the box
 
 ## Quick Start
 
@@ -91,7 +70,7 @@ bun run polym bot start --dry-run
 bun run polym bot start
 ```
 
-### Other Commands
+### CLI Commands
 
 ```bash
 # View account positions and balances
@@ -101,6 +80,17 @@ bun run polym account status
 bun run polym markets snapshot
 ```
 
+## Packages
+
+| Package         | Description                                                                                   |
+| --------------- | --------------------------------------------------------------------------------------------- |
+| `@polym/sdk`    | Typed clients for Gamma, CLOB, and Data APIs; market/user WebSockets; RTDS subscriptions      |
+| `@polym/bot`    | Event-driven trading engine with order book state, position tracking, and strategy evaluation |
+| `@polym/cli`    | `polym` binary with `account`, `markets`, and `bot` subcommands                               |
+| `@polym/config` | Loads and validates `bot.config.json` via c12                                                 |
+| `@polym/merger` | Utilities for merging opposing positions to free capital                                      |
+| `@polym/utils`  | Terminal helpers (spinners, prompts), formatting utilities                                    |
+
 ## Development
 
 | Command         | Purpose                                |
@@ -109,11 +99,12 @@ bun run polym markets snapshot
 | `bun run check` | Type-check + lint + JSDoc verification |
 | `bun run test`  | Run unit tests                         |
 
+## Design Principles
+
+- **Composable primitives**: Small packages with single responsibilities
+- **Type safety**: Branded IDs, Zod schemas for wire formats, strict TypeScript
+- **Minimal dependencies**: Only what's necessary; no framework lock-in
+
 ## License
 
 MIT
-
-## Acknowledgments
-
-- [warproxxx/poly-maker](https://github.com/warproxxx/poly-maker) for the original implementation and strategy logic
-- [Polymarket](https://polymarket.com) for the prediction market platform
